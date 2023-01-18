@@ -19,6 +19,3 @@ function draw() {
 function mouseIsPressed() {
     background(220, 200, 200)
 }
-
-
-
