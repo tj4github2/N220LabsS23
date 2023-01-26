@@ -1,7 +1,10 @@
+var circleX;
+var radius=25;
+
 function setup(){
     createCanvas(800, 600);
 
-    circle(x=0);
+    circleX=0;
     fill(255, 0, 0);
 }
 
