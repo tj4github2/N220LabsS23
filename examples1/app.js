@@ -29,5 +29,5 @@ function distance(p1, p2) {
   let dy = p1.y - p2.y;
   
   //return the distance
-   Math.sqrt(dx*dx + dy*dy);
+   return Math.sqrt(dx*dx + dy*dy);
 }
