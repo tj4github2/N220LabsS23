@@ -3,7 +3,6 @@ function setup(){
 }
 var diameter = 20;
 function draw(){
-    diameter = diameter+1
     background("yellow");
 
     if(mouseX>200){
