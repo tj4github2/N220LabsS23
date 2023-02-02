@@ -2,12 +2,8 @@ function setup() {
     createCanvas(500,400)
 }
 
-(removeColor.setRed(0)); {
-
-}
-
 function removeRed(removeColor) {
-
+    removeColor.setRed(0) 
 }
 
 function draw() {
