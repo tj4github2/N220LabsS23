@@ -4,9 +4,13 @@ function setup() {
 
 function removeRed(removeColor) {
     removeColor.setRed(0) 
+    return removeColor
 }
 
 function draw() {
-    color(170, 200, 150)
-    
+    let noRed = removeRed(color(170, 200, 150))
+    fill(noRed); 
+    circle(150, 250, 90);
 }
+
+
